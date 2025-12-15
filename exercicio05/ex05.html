@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dospositívos diferentes, ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="../image/fundo-p.png" type="image/png">
+        <source media="(max-width: 1100px)" srcset="../image/fundo-m.png" type="image/png">
+        <img src="../image/fundo-g.png" alt="imagem flexivel">
+    </picture>
+    <p>Para ir para o próximo exercício, clique abaixo!</p>
+    <a href="../exercicio06/ex06.html" rel="next">Próximo Exercício</a>
+    <p>Para voltar para o exercício anterior, clique abaixo!</p>
+    <a href="../exercicio04/ex04.html" rel="prev">Exercício Anterior</a>
+    <p>Para voltar para a página inicial, clique abaixo!</p>
+    <a href="../exercicio01/ex01.html" rel="home">Página Inicial</a>
+</body>
+</html>

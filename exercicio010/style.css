@@ -1,0 +1,13 @@
+body {
+            background-color: lightskyblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            color: mediumblue;
+        }
+        h2 {
+            color: green;
+        }
+        p {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
